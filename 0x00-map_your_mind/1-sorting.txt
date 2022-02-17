@@ -1,0 +1,27 @@
+INPUT num1
+INPUT num2
+INPUT num3
+
+IF num1 < num2 AND num1 < num3
+	IF num2 < num3
+		PRINT num1,num2, num3
+	ELSE 
+		PRINT num1,num3,num2
+	END IF
+
+ELSE IF num2 < num1 AND num2 < num3
+	IF num1 < num 3
+		PRINT num2,num1,num3
+	ELSE
+		PRINT num2,num3,num1
+	END IF
+
+ELSE
+	IF num 3 < num 1 AND num3 < num2
+		IF num1 < num2
+			PRINT num3,num1,num2
+		ELSE 
+			PRINT num3,num2,num1
+		END IF
+
+END IF
