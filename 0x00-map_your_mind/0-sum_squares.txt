@@ -1,0 +1,21 @@
+START
+
+PROMPT number of entries
+SET n = number of entries
+SET square = 0
+SET sum = 0
+
+FOR LOOP:
+SET COUNT to 0
+break when COUNT = n
+increase n by 1
+	
+	INPUT entry
+	square = entry^2
+	sum = sum + square
+
+EXIT LOOP
+
+PRINT sum
+
+STOP
