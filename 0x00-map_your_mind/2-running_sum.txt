@@ -1,0 +1,13 @@
+START
+
+SET sum = 0
+PROMPT input = num
+
+IF num >= 0
+	sum=sum + num
+	PROMPT input = num
+ELSE
+	PRINT sum.
+END IF
+
+STOP
